@@ -1,0 +1,49 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=4ee264b9
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "CentOS 64-bit-s001.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s002.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s003.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s004.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s005.vmdk"
+RW 327680 SPARSE "CentOS 64-bit-s006.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s007.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s008.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s009.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s010.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s011.vmdk"
+RW 327680 SPARSE "CentOS 64-bit-s012.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s013.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s014.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s015.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s016.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s017.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s018.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s019.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s020.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s021.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s022.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s023.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s024.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s025.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s026.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-s027.vmdk"
+RW 983040 SPARSE "CentOS 64-bit-s028.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "13054"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "21c3bd25899ec0fae6f2685f4ee264b9"
+ddb.toolsInstallType = "4"
+ddb.toolsVersion = "10245"
+ddb.uuid = "60 00 C2 93 fa 51 ef 2b-49 6e b0 0d 9d ef 27 55"
+ddb.virtualHWVersion = "12"

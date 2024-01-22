@@ -1,0 +1,25 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=fffffffe
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "CentOS 64-bit-0-s001.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-0-s002.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-0-s003.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-0-s004.vmdk"
+RW 8323072 SPARSE "CentOS 64-bit-0-s005.vmdk"
+RW 327680 SPARSE "CentOS 64-bit-0-s006.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "2610"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "5353abfa715cbf32703815b6fffffffe"
+ddb.uuid = "60 00 C2 9d 14 4c db 60-c6 35 18 57 04 6e c0 dd"
+ddb.virtualHWVersion = "12"
